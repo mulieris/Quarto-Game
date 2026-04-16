@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  min-height: 100dvh;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "DM Sans", system-ui, sans-serif;
+  background: radial-gradient(circle at 20% 20%, #fff7ed 0, transparent 45%),
+    radial-gradient(circle at 80% 10%, #e7f0f4 0, transparent 40%),
+    linear-gradient(180deg, #faf7f2 0%, #f3efe6 100%);
+  color: #1c1917;
+}
+
+.canvas-shell {
+  position: relative;
+  flex: 1 1 0%;
+  min-height: 0;
+}
+
+.canvas-shell canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  touch-action: none;
+}

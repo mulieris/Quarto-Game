@@ -1,0 +1,103 @@
+{
+  "brand": { "title": "Quarto", "tagline": "Estrategia abstracta para dos." },
+  "menu": {
+    "local": "Jugar en local",
+    "bot": "Jugar contra el bot",
+    "online": "Jugar online",
+    "settings": "Ajustes",
+    "rules": "Reglas"
+  },
+  "lobby": {
+    "title": "Sala online",
+    "create": "Crear sala",
+    "join": "Unirse a sala",
+    "room_code": "Código de sala",
+    "room_code_placeholder": "introduce el código",
+    "copy_link": "Copiar enlace",
+    "copied": "Enlace copiado",
+    "invite_hint": "Comparte el enlace con tu rival.",
+    "waiting": "Esperando al segundo jugador",
+    "opponent_connected": "Oponente conectado",
+    "opponent_disconnected": "Oponente desconectado",
+    "reconnecting": "Reconectando…",
+    "connection_lost": "Conexión perdida",
+    "room_full": "Sala llena",
+    "back": "Volver al menú",
+    "start_hint": "La partida empieza cuando ambos jugadores estén conectados."
+  },
+  "phase": {
+    "choose_for_opponent": "Elige una pieza para tu oponente",
+    "place_piece": "Coloca la pieza seleccionada"
+  },
+  "turn": {
+    "player1": "Jugador 1",
+    "player2": "Jugador 2",
+    "yours": "Tu turno",
+    "bot": "Turno del bot",
+    "choose_for_bot": "Elige una pieza para el bot"
+  },
+  "result": { "win": "Ganas", "lose": "Pierdes", "draw": "Empate" },
+  "actions": { "restart": "Reiniciar", "rematch": "Revancha", "camera_reset": "Restablecer cámara" },
+  "settings": {
+    "title": "Ajustes",
+    "language": "Idioma",
+    "sound": "Sonido",
+    "bot_difficulty": "Dificultad del bot",
+    "easy": "Fácil",
+    "medium": "Medio",
+    "hard": "Difícil"
+  },
+  "history": { "title": "Historial de jugadas" },
+  "panel": {
+    "mode": "Modo",
+    "mode_local": "Local",
+    "mode_bot": "Vs bot",
+    "mode_online": "Online",
+    "player": "Jugador activo",
+    "phase": "Fase",
+    "selection": "Pieza seleccionada",
+    "none": "Ninguna",
+    "room": "Sala"
+  },
+  "status": {
+    "bot_thinking": "El bot está pensando…",
+    "idle": "Inactivo",
+    "connecting": "Conectando…",
+    "connected": "Conectado",
+    "reconnecting": "Reconectando…",
+    "disconnected": "Desconectado",
+    "error": "Error",
+    "room_full": "Sala llena"
+  },
+  "rules": {
+    "title": "Cómo jugar a Quarto",
+    "intro": "Quarto se juega en un tablero 4×4 con 16 piezas únicas. Cada pieza tiene cuatro rasgos binarios: clara/oscura, alta/baja, redonda/cuadrada, hueca/maciza.",
+    "turns": "No eliges tu propia pieza para colocar: eliges una pieza libre para tu rival; él debe colocarla en una casilla vacía. Luego él elige una pieza para ti.",
+    "win": "Ganas si una fila, columna o diagonal tiene cuatro piezas que comparten al menos un rasgo.",
+    "draw": "Si el tablero se llena sin línea ganadora, hay empate."
+  },
+  "errors": {
+    "waiting_opponent": "Esperando a que el oponente se conecte",
+    "invalid_move": "Jugada inválida",
+    "room_not_found": "Sala no encontrada",
+    "forbidden": "No se pudo unir a la sala",
+    "room_create_failed": "No se pudo crear la sala",
+    "error_unknown": "Algo salió mal",
+    "bad_payload": "Mensaje inválido del servidor"
+  },
+  "toast": { "copied": "Copiado al portapapeles" },
+  "piece": {
+    "color": "Color",
+    "height": "Altura",
+    "shape": "Forma",
+    "top": "Tapa",
+    "light": "Clara",
+    "dark": "Oscura",
+    "tall": "Alta",
+    "short": "Baja",
+    "round": "Redonda",
+    "square": "Cuadrada",
+    "hollow": "Hueca",
+    "solid": "Maciza"
+  }
+}

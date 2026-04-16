@@ -1,0 +1,103 @@
+{
+  "brand": { "title": "Quarto", "tagline": "Abstrakcyjna strategia dla dwojga." },
+  "menu": {
+    "local": "Gra lokalna",
+    "bot": "Gra z botem",
+    "online": "Gra online",
+    "settings": "Ustawienia",
+    "rules": "Zasady"
+  },
+  "lobby": {
+    "title": "Lobby online",
+    "create": "Utwórz pokój",
+    "join": "Dołącz do pokoju",
+    "room_code": "Kod pokoju",
+    "room_code_placeholder": "wpisz kod",
+    "copy_link": "Kopiuj link",
+    "copied": "Link skopiowany",
+    "invite_hint": "Udostępnij link przeciwnikowi.",
+    "waiting": "Oczekiwanie na drugiego gracza",
+    "opponent_connected": "Przeciwnik połączony",
+    "opponent_disconnected": "Przeciwnik rozłączony",
+    "reconnecting": "Ponowne łączenie…",
+    "connection_lost": "Utracono połączenie",
+    "room_full": "Pokój jest pełny",
+    "back": "Wróć do menu",
+    "start_hint": "Gra rozpocznie się, gdy obaj gracze będą połączeni."
+  },
+  "phase": {
+    "choose_for_opponent": "Wybierz pionek dla przeciwnika",
+    "place_piece": "Umieść wybrany pionek"
+  },
+  "turn": {
+    "player1": "Gracz 1",
+    "player2": "Gracz 2",
+    "yours": "Twoja kolej",
+    "bot": "Tura bota",
+    "choose_for_bot": "Wybierz pionek dla bota"
+  },
+  "result": { "win": "Wygrałeś", "lose": "Przegrałeś", "draw": "Remis" },
+  "actions": { "restart": "Restart", "rematch": "Rewanż", "camera_reset": "Reset kamery" },
+  "settings": {
+    "title": "Ustawienia",
+    "language": "Język",
+    "sound": "Dźwięk",
+    "bot_difficulty": "Poziom bota",
+    "easy": "Łatwy",
+    "medium": "Średni",
+    "hard": "Trudny"
+  },
+  "history": { "title": "Historia ruchów" },
+  "panel": {
+    "mode": "Tryb",
+    "mode_local": "Lokalnie",
+    "mode_bot": "Vs bot",
+    "mode_online": "Online",
+    "player": "Aktywny gracz",
+    "phase": "Faza",
+    "selection": "Wybrany pionek",
+    "none": "Brak",
+    "room": "Pokój"
+  },
+  "status": {
+    "bot_thinking": "Bot myśli…",
+    "idle": "Bezczynny",
+    "connecting": "Łączenie…",
+    "connected": "Połączono",
+    "reconnecting": "Ponowne łączenie…",
+    "disconnected": "Rozłączono",
+    "error": "Błąd",
+    "room_full": "Pokój pełny"
+  },
+  "rules": {
+    "title": "Jak grać w Quarto",
+    "intro": "Quarto rozgrywa się na planszy 4×4 z 16 unikalnymi pionkami. Każdy ma cztery cechy binarne: jasny/ciemny, wysoki/niski, okrągły/kwadratowy, z otworem/pełny.",
+    "turns": "Nie stawiasz własnego pionka: wybierasz dowolny wolny pionek dla przeciwnika; musi on postawić go na pustym polu. Potem on wybiera pionek dla ciebie.",
+    "win": "Wygrana, jeśli w rzędzie, kolumnie lub przekątnej cztery pionki mają co najmniej jedną wspólną cechę.",
+    "draw": "Gdy plansza się zapełni bez linii wygranej — remis."
+  },
+  "errors": {
+    "waiting_opponent": "Oczekiwanie na połączenie przeciwnika",
+    "invalid_move": "Niedozwolony ruch",
+    "room_not_found": "Nie znaleziono pokoju",
+    "forbidden": "Nie można dołączyć do pokoju",
+    "room_create_failed": "Nie można utworzyć pokoju",
+    "error_unknown": "Coś poszło nie tak",
+    "bad_payload": "Niepoprawna wiadomość z serwera"
+  },
+  "toast": { "copied": "Skopiowano do schowka" },
+  "piece": {
+    "color": "Kolor",
+    "height": "Wysokość",
+    "shape": "Kształt",
+    "top": "Góra",
+    "light": "Jasny",
+    "dark": "Ciemny",
+    "tall": "Wysoki",
+    "short": "Niski",
+    "round": "Okrągły",
+    "square": "Kwadratowy",
+    "hollow": "Z otworem",
+    "solid": "Pełny"
+  }
+}

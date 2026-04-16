@@ -1,0 +1,103 @@
+{
+  "brand": { "title": "四连棋", "tagline": "双人抽象策略。" },
+  "menu": {
+    "local": "本地双人对战",
+    "bot": "对战电脑",
+    "online": "在线对战",
+    "settings": "设置",
+    "rules": "规则"
+  },
+  "lobby": {
+    "title": "在线大厅",
+    "create": "创建房间",
+    "join": "加入房间",
+    "room_code": "房间代码",
+    "room_code_placeholder": "输入代码",
+    "copy_link": "复制邀请链接",
+    "copied": "链接已复制",
+    "invite_hint": "把链接发给对手。",
+    "waiting": "等待第二位玩家",
+    "opponent_connected": "对手已连接",
+    "opponent_disconnected": "对手已断开",
+    "reconnecting": "正在重新连接…",
+    "connection_lost": "连接已断开",
+    "room_full": "房间已满",
+    "back": "返回菜单",
+    "start_hint": "两名玩家都连接后游戏开始。"
+  },
+  "phase": {
+    "choose_for_opponent": "为对手选择棋子",
+    "place_piece": "放置被选中的棋子"
+  },
+  "turn": {
+    "player1": "玩家 1",
+    "player2": "玩家 2",
+    "yours": "你的回合",
+    "bot": "电脑回合",
+    "choose_for_bot": "为电脑选择棋子"
+  },
+  "result": { "win": "你赢了", "lose": "你输了", "draw": "平局" },
+  "actions": { "restart": "重新开始", "rematch": "再来一局", "camera_reset": "重置镜头" },
+  "settings": {
+    "title": "设置",
+    "language": "语言",
+    "sound": "声音",
+    "bot_difficulty": "电脑难度",
+    "easy": "简单",
+    "medium": "中等",
+    "hard": "困难"
+  },
+  "history": { "title": "走子记录" },
+  "panel": {
+    "mode": "模式",
+    "mode_local": "本地",
+    "mode_bot": "对战电脑",
+    "mode_online": "在线",
+    "player": "当前行棋方",
+    "phase": "阶段",
+    "selection": "已选棋子",
+    "none": "无",
+    "room": "房间"
+  },
+  "status": {
+    "bot_thinking": "电脑思考中…",
+    "idle": "空闲",
+    "connecting": "连接中…",
+    "connected": "已连接",
+    "reconnecting": "重连中…",
+    "disconnected": "已断开",
+    "error": "错误",
+    "room_full": "房间已满"
+  },
+  "rules": {
+    "title": "Quarto 规则",
+    "intro": "Quarto 在 4×4 棋盘上进行，共有 16 枚各不相同的棋子。每枚棋子有四个二元特征：浅色/深色、高/矮、圆/方、空心顶/实心顶。",
+    "turns": "你不能自己选要下的棋子：轮到你时，你要从未使用的棋子中为对手选一枚；对手必须把它放到空格上。对手下完后，再为你选下一枚。",
+    "win": "若某一行、列或对角线上的四枚棋子至少共享一个相同特征，则该行棋方获胜。",
+    "draw": "若棋盘下满仍无获胜线，则为平局。"
+  },
+  "errors": {
+    "waiting_opponent": "等待对手连接",
+    "invalid_move": "非法走法",
+    "room_not_found": "找不到房间",
+    "forbidden": "无法加入该房间",
+    "room_create_failed": "无法创建房间",
+    "error_unknown": "出现未知错误",
+    "bad_payload": "服务器消息无效"
+  },
+  "toast": { "copied": "已复制到剪贴板" },
+  "piece": {
+    "color": "颜色",
+    "height": "高度",
+    "shape": "外形",
+    "top": "顶部",
+    "light": "浅",
+    "dark": "深",
+    "tall": "高",
+    "short": "矮",
+    "round": "圆",
+    "square": "方",
+    "hollow": "空心",
+    "solid": "实心"
+  }
+}

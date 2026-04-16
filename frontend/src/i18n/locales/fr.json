@@ -1,0 +1,103 @@
+{
+  "brand": { "title": "Quarto", "tagline": "Stratégie abstraite à deux." },
+  "menu": {
+    "local": "Jouer en local",
+    "bot": "Jouer contre le bot",
+    "online": "Jouer en ligne",
+    "settings": "Réglages",
+    "rules": "Règles"
+  },
+  "lobby": {
+    "title": "Lobby en ligne",
+    "create": "Créer une salle",
+    "join": "Rejoindre une salle",
+    "room_code": "Code de salle",
+    "room_code_placeholder": "entrez le code",
+    "copy_link": "Copier le lien d’invitation",
+    "copied": "Lien copié",
+    "invite_hint": "Partagez le lien avec votre adversaire.",
+    "waiting": "En attente du second joueur",
+    "opponent_connected": "Adversaire connecté",
+    "opponent_disconnected": "Adversaire déconnecté",
+    "reconnecting": "Reconnexion…",
+    "connection_lost": "Connexion perdue",
+    "room_full": "Salle pleine",
+    "back": "Retour au menu",
+    "start_hint": "La partie commence lorsque les deux joueurs sont connectés."
+  },
+  "phase": {
+    "choose_for_opponent": "Choisissez une pièce pour votre adversaire",
+    "place_piece": "Placez la pièce sélectionnée"
+  },
+  "turn": {
+    "player1": "Joueur 1",
+    "player2": "Joueur 2",
+    "yours": "À vous",
+    "bot": "Tour du bot",
+    "choose_for_bot": "Choisissez une pièce pour le bot"
+  },
+  "result": { "win": "Vous gagnez", "lose": "Vous perdez", "draw": "Match nul" },
+  "actions": { "restart": "Recommencer", "rematch": "Revanche", "camera_reset": "Réinitialiser la caméra" },
+  "settings": {
+    "title": "Réglages",
+    "language": "Langue",
+    "sound": "Son",
+    "bot_difficulty": "Difficulté du bot",
+    "easy": "Facile",
+    "medium": "Moyen",
+    "hard": "Difficile"
+  },
+  "history": { "title": "Historique des coups" },
+  "panel": {
+    "mode": "Mode",
+    "mode_local": "Local",
+    "mode_bot": "Vs bot",
+    "mode_online": "En ligne",
+    "player": "Joueur actif",
+    "phase": "Phase",
+    "selection": "Pièce sélectionnée",
+    "none": "Aucune",
+    "room": "Salle"
+  },
+  "status": {
+    "bot_thinking": "Le bot réfléchit…",
+    "idle": "Inactif",
+    "connecting": "Connexion…",
+    "connected": "Connecté",
+    "reconnecting": "Reconnexion…",
+    "disconnected": "Déconnecté",
+    "error": "Erreur",
+    "room_full": "Salle pleine"
+  },
+  "rules": {
+    "title": "Comment jouer à Quarto",
+    "intro": "Quarto se joue sur un plateau 4×4 avec 16 pièces uniques. Chaque pièce a quatre attributs binaires : claire/foncée, haute/basse, ronde/carrée, creuse/pleine.",
+    "turns": "Vous ne choisissez pas votre propre pièce à poser : vous choisissez une pièce libre pour l’adversaire ; il doit la placer sur une case vide. Ensuite il choisit une pièce pour vous.",
+    "win": "Victoire si une ligne, colonne ou diagonale contient quatre pièces partageant au moins un attribut.",
+    "draw": "Si le plateau est plein sans ligne gagnante, match nul."
+  },
+  "errors": {
+    "waiting_opponent": "En attente de la connexion de l’adversaire",
+    "invalid_move": "Coup invalide",
+    "room_not_found": "Salle introuvable",
+    "forbidden": "Impossible de rejoindre la salle",
+    "room_create_failed": "Impossible de créer la salle",
+    "error_unknown": "Une erreur s’est produite",
+    "bad_payload": "Message serveur invalide"
+  },
+  "toast": { "copied": "Copié dans le presse-papiers" },
+  "piece": {
+    "color": "Couleur",
+    "height": "Hauteur",
+    "shape": "Forme",
+    "top": "Dessus",
+    "light": "Claire",
+    "dark": "Foncée",
+    "tall": "Haute",
+    "short": "Basse",
+    "round": "Ronde",
+    "square": "Carrée",
+    "hollow": "Creuse",
+    "solid": "Pleine"
+  }
+}

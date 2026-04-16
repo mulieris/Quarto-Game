@@ -1,0 +1,103 @@
+{
+  "brand": { "title": "Quarto", "tagline": "Abstrakte Strategie zu zweit." },
+  "menu": {
+    "local": "Lokal spielen",
+    "bot": "Gegen Bot spielen",
+    "online": "Online spielen",
+    "settings": "Einstellungen",
+    "rules": "Regeln"
+  },
+  "lobby": {
+    "title": "Online-Lobby",
+    "create": "Raum erstellen",
+    "join": "Raum beitreten",
+    "room_code": "Raumcode",
+    "room_code_placeholder": "Code eingeben",
+    "copy_link": "Einladungslink kopieren",
+    "copied": "Link kopiert",
+    "invite_hint": "Teile den Link mit deinem Gegner.",
+    "waiting": "Warte auf zweiten Spieler",
+    "opponent_connected": "Gegner verbunden",
+    "opponent_disconnected": "Gegner getrennt",
+    "reconnecting": "Verbinde erneut…",
+    "connection_lost": "Verbindung verloren",
+    "room_full": "Raum ist voll",
+    "back": "Zurück zum Menü",
+    "start_hint": "Das Spiel startet, wenn beide Spieler verbunden sind."
+  },
+  "phase": {
+    "choose_for_opponent": "Wähle eine Figur für deinen Gegner",
+    "place_piece": "Setze die gewählte Figur"
+  },
+  "turn": {
+    "player1": "Spieler 1",
+    "player2": "Spieler 2",
+    "yours": "Du bist dran",
+    "bot": "Bot ist dran",
+    "choose_for_bot": "Wähle eine Figur für den Bot"
+  },
+  "result": { "win": "Du gewinnst", "lose": "Du verlierst", "draw": "Unentschieden" },
+  "actions": { "restart": "Neustart", "rematch": "Revanche", "camera_reset": "Kamera zurücksetzen" },
+  "settings": {
+    "title": "Einstellungen",
+    "language": "Sprache",
+    "sound": "Ton",
+    "bot_difficulty": "Bot-Schwierigkeit",
+    "easy": "Leicht",
+    "medium": "Mittel",
+    "hard": "Schwer"
+  },
+  "history": { "title": "Zugverlauf" },
+  "panel": {
+    "mode": "Modus",
+    "mode_local": "Lokal",
+    "mode_bot": "Gegen Bot",
+    "mode_online": "Online",
+    "player": "Aktiver Spieler",
+    "phase": "Phase",
+    "selection": "Gewählte Figur",
+    "none": "Keine",
+    "room": "Raum"
+  },
+  "status": {
+    "bot_thinking": "Bot denkt…",
+    "idle": "Leerlauf",
+    "connecting": "Verbinden…",
+    "connected": "Verbunden",
+    "reconnecting": "Neu verbinden…",
+    "disconnected": "Getrennt",
+    "error": "Fehler",
+    "room_full": "Raum voll"
+  },
+  "rules": {
+    "title": "So spielt man Quarto",
+    "intro": "Quarto wird auf einem 4×4-Brett mit 16 einzigartigen Figuren gespielt. Jede Figur hat vier binäre Merkmale: hell/dunkel, hoch/niedrig, rund/quadratisch, hohl/voll.",
+    "turns": "Du setzt nicht deine eigene Figur: du wählst eine freie Figur für den Gegner; er muss sie auf ein leeres Feld setzen. Danach wählt er eine Figur für dich.",
+    "win": "Du gewinnst, wenn eine Reihe, Spalte oder Diagonale vier Figuren mit mindestens einem gemeinsamen Merkmal hat.",
+    "draw": "Ist das Brett voll ohne Gewinnlinie, endet die Partie unentschieden."
+  },
+  "errors": {
+    "waiting_opponent": "Warte auf Verbindung des Gegners",
+    "invalid_move": "Ungültiger Zug",
+    "room_not_found": "Raum nicht gefunden",
+    "forbidden": "Raumbeitritt nicht möglich",
+    "room_create_failed": "Raum konnte nicht erstellt werden",
+    "error_unknown": "Etwas ist schiefgelaufen",
+    "bad_payload": "Ungültige Servernachricht"
+  },
+  "toast": { "copied": "In die Zwischenablage kopiert" },
+  "piece": {
+    "color": "Farbe",
+    "height": "Höhe",
+    "shape": "Form",
+    "top": "Oberseite",
+    "light": "Hell",
+    "dark": "Dunkel",
+    "tall": "Hoch",
+    "short": "Niedrig",
+    "round": "Rund",
+    "square": "Quadratisch",
+    "hollow": "Hohl",
+    "solid": "Voll"
+  }
+}

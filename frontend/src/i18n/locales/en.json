@@ -1,0 +1,118 @@
+{
+  "brand": {
+    "title": "Quarto",
+    "tagline": "Abstract strategy for two minds."
+  },
+  "menu": {
+    "local": "Play locally",
+    "bot": "Play vs bot",
+    "online": "Play online",
+    "settings": "Settings",
+    "rules": "Rules"
+  },
+  "lobby": {
+    "title": "Online lobby",
+    "create": "Create room",
+    "join": "Join room",
+    "room_code": "Room code",
+    "room_code_placeholder": "enter code",
+    "copy_link": "Copy invite link",
+    "copied": "Link copied",
+    "invite_hint": "Share this link with your opponent.",
+    "waiting": "Waiting for second player",
+    "opponent_connected": "Opponent connected",
+    "opponent_disconnected": "Opponent disconnected",
+    "reconnecting": "Reconnecting…",
+    "connection_lost": "Connection lost",
+    "room_full": "Room is full",
+    "back": "Back to menu",
+    "start_hint": "The game begins when both players are connected."
+  },
+  "phase": {
+    "choose_for_opponent": "Choose a piece for your opponent",
+    "place_piece": "Place the selected piece"
+  },
+  "turn": {
+    "player1": "Player 1",
+    "player2": "Player 2",
+    "yours": "Your turn",
+    "bot": "Bot turn",
+    "choose_for_bot": "Choose a piece for the bot"
+  },
+  "result": {
+    "win": "You win",
+    "lose": "You lose",
+    "draw": "Draw"
+  },
+  "actions": {
+    "restart": "Restart",
+    "rematch": "Rematch",
+    "camera_reset": "Reset camera"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "sound": "Sound",
+    "bot_difficulty": "Bot difficulty",
+    "easy": "Easy",
+    "medium": "Medium",
+    "hard": "Hard"
+  },
+  "history": {
+    "title": "Move history"
+  },
+  "panel": {
+    "mode": "Mode",
+    "mode_local": "Local",
+    "mode_bot": "Vs bot",
+    "mode_online": "Online",
+    "player": "Active player",
+    "phase": "Phase",
+    "selection": "Selected piece",
+    "none": "None",
+    "room": "Room"
+  },
+  "status": {
+    "bot_thinking": "Bot is thinking…",
+    "idle": "Idle",
+    "connecting": "Connecting…",
+    "connected": "Connected",
+    "reconnecting": "Reconnecting…",
+    "disconnected": "Disconnected",
+    "error": "Error",
+    "room_full": "Room full"
+  },
+  "rules": {
+    "title": "How to play Quarto",
+    "intro": "Quarto is played on a 4×4 board with 16 unique pieces. Each piece has four binary traits: light or dark, tall or short, round or square, hollow or solid.",
+    "turns": "You never play your own piece. On your turn you choose any unused piece for your opponent; they must place it on an empty square. After placing, they choose your next piece.",
+    "win": "You win if a row, column, or diagonal contains four pieces that share at least one trait in common.",
+    "draw": "If the board fills with no winning line, the game is a draw."
+  },
+  "errors": {
+    "waiting_opponent": "Waiting for opponent to connect",
+    "invalid_move": "Invalid move",
+    "room_not_found": "Room not found",
+    "forbidden": "Could not join this room",
+    "room_create_failed": "Could not create room",
+    "error_unknown": "Something went wrong",
+    "bad_payload": "Bad message from server"
+  },
+  "toast": {
+    "copied": "Copied to clipboard"
+  },
+  "piece": {
+    "color": "Color",
+    "height": "Height",
+    "shape": "Shape",
+    "top": "Top",
+    "light": "Light",
+    "dark": "Dark",
+    "tall": "Tall",
+    "short": "Short",
+    "round": "Round",
+    "square": "Square",
+    "hollow": "Hollow",
+    "solid": "Solid"
+  }
+}
