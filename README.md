@@ -97,7 +97,7 @@ cd /Users/kasperka/quarto
 chmod +x scripts/push-to-github.sh && ./scripts/push-to-github.sh
 ```
 
-Or see **[GITHUB.md](./GITHUB.md)** for copy-paste steps and SSH/HTTPS notes.
+Use an **HTTPS** remote (`https://github.com/mulieris/Quarto-Game.git`) unless SSH keys are set up for GitHub. For day-to-day updates: `git add .`, `git commit -m "…"`, `git push`.
 
 The **hero image** is at `frontend/public/hero-quarto.png` (main menu + README banner).
 
